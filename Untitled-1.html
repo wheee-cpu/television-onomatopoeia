@@ -1,0 +1,45 @@
+<html>
+   
+<body>
+<canvas id = "myCanvas" width="800"
+height="600" style = ""></canvas>
+</body>
+<style>body{
+ text-align: center;   
+    
+}</style>
+ <script>
+        canvas = document.getElementById("myCanvas");
+        ctx = canvas.getContext("2d");
+    
+        ctx.beginPath();
+        ctx.strokeStyle = "Blue";
+        ctx.lineWidth = 6;
+        ctx.arc(250,210,40,0,2 * Math.PI);
+        ctx.stroke()
+    
+        ctx.beginPath();
+        ctx.strokeStyle = "Yellow";
+        ctx.lineWidth = 6;
+        ctx.arc(300,250,40,0,2 * Math.PI);
+        ctx.stroke()
+    
+        ctx.beginPath();
+        ctx.strokeStyle = "Black";
+        ctx.lineWidth = 6;
+        ctx.arc(350,210,40,0,2 * Math.PI);
+        ctx.stroke()
+    
+        ctx.beginPath();
+        ctx.strokeStyle = "Green";
+        ctx.lineWidth = 6;
+        ctx.arc(400,250,40,0,2 * Math.PI);
+        ctx.stroke()
+    
+        ctx.beginPath();
+        ctx.strokeStyle = "Red";
+        ctx.lineWidth = 6;
+        ctx.arc(450,210,40,0,2 * Math.PI);
+        ctx.stroke()
+        </script>
+</html>
